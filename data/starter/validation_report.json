@@ -1,0 +1,1065 @@
+{
+ "checks": {
+  "account_current_balance_derived": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "account_status_derived_from_events": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "account_status_lifecycle": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "alert_has_trigger_txn": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "alert_score_arithmetic": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_action_lifecycle": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_actions_not_before_open": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_alert_count": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_assigned_after_action": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_closed_not_before_opened": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_disposition_not_before_alerts": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_has_alerts": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "case_status_derived_from_actions": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "customer_status_derived": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "date_order:account_open_close_vs_customer": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "date_order:alert_after_trigger_txn": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "date_order:kyc": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "date_order:transfer_completed_after_initiated": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "date_order:txn_not_before_account_open": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "duplicate_alerts": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "duplicate_customers": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "duplicate_transactions": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:account_parties": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:account_status_events": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:alert_transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:alerts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:analyst_actions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:device_account_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:kyc_profiles": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:merchants": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:risk_rules": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "enum:transfer_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:account_parties.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:account_parties.customer_id->customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:account_status_events.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:account_status_events.action_id->analyst_actions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:accounts.primary_customer_id->customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alert_transactions.alert_id->alerts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alert_transactions.transaction_id->transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alerts.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alerts.case_id->cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alerts.rule_version_id->risk_rules": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:alerts.trigger_txn_id->transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:analyst_actions.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:analyst_actions.case_id->cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:analyst_actions.user_id->analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:cases.assigned_user_id->analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:cases.primary_account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:cases.primary_customer_id->customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:device_account_links.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:device_account_links.device_id->devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:kyc_profiles.customer_id->customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:risk_rules.created_by->analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transactions.account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transactions.device_id->devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transactions.merchant_id->merchants": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transactions.transfer_id->transfer_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transfer_links.dest_account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transfer_links.in_txn_id->transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transfer_links.out_txn_id->transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "fk:transfer_links.source_account_id->accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:account_parties": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:account_status_events": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:alert_transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:alerts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:analyst_actions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:device_account_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:kyc_profiles": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:merchants": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:risk_rules": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "id_pattern:transfer_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "negative_balance_without_overdraft": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "no_txn_after_freeze": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:account_parties": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:account_status_events": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:alert_transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:alerts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:analyst_actions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:device_account_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:kyc_profiles": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:merchants": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:risk_rules": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "pk_unique:transfer_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:account_parties": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:account_status_events": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:accounts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:alert_transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:alerts": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:analyst_actions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:analyst_users": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:cases": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:customers": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:device_account_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:devices": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:kyc_profiles": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:merchants": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:risk_rules": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:transactions": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "required:transfer_links": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "transfer_legs_reconcile": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "transfer_txns_have_link": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_amount_positive": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_balance_reconciles": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_device_link_precedes_use": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_direction_matches_type": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_not_after_account_close": {
+   "expected_labelled": 2,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 2,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "txn_purchase_has_merchant": {
+   "expected_labelled": 0,
+   "kind": "semantic",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "unique:devices.fingerprint_hash": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "unique:kyc_profiles.customer_id": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "unique:transfer_links.in_txn_id": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  },
+  "unique:transfer_links.out_txn_id": {
+   "expected_labelled": 0,
+   "kind": "structural",
+   "missed": [],
+   "observed": 0,
+   "status": "PASS",
+   "unlabelled": []
+  }
+ },
+ "sqlite_load": {
+  "alerts_fully_joinable": 50,
+  "foreign_key_violations": 0,
+  "row_counts": {
+   "account_parties": 383,
+   "account_status_events": 382,
+   "accounts": 350,
+   "alert_transactions": 150,
+   "alerts": 50,
+   "analyst_actions": 114,
+   "analyst_users": 8,
+   "cases": 41,
+   "customers": 250,
+   "device_account_links": 488,
+   "devices": 350,
+   "kyc_profiles": 250,
+   "merchants": 40,
+   "risk_rules": 5,
+   "transactions": 5000,
+   "transfer_links": 159
+  }
+ },
+ "summary": {
+  "all_pass": true,
+  "checks": 129,
+  "failed": [],
+  "labelled_violations_detected": 14,
+  "passed": 129
+ }
+}

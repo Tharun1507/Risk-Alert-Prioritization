@@ -1,0 +1,1001 @@
+{
+ "injected_anomalies": [
+  {
+   "account_id": null,
+   "affected_checks": [
+    "alert_has_trigger_txn"
+   ],
+   "anomaly_id": "ANOM-0001",
+   "entity_id": "ALT-2026-000003",
+   "issue_type": "ALERT_HAS_NO_TRIGGERING_TRANSACTION",
+   "related_ids": [],
+   "table": "alerts"
+  },
+  {
+   "account_id": null,
+   "affected_checks": [
+    "alert_has_trigger_txn"
+   ],
+   "anomaly_id": "ANOM-0002",
+   "entity_id": "ALT-2026-000047",
+   "issue_type": "ALERT_HAS_NO_TRIGGERING_TRANSACTION",
+   "related_ids": [],
+   "table": "alerts"
+  },
+  {
+   "account_id": null,
+   "affected_checks": [
+    "case_disposition_not_before_alerts",
+    "case_actions_not_before_open",
+    "case_closed_not_before_opened"
+   ],
+   "anomaly_id": "ANOM-0003",
+   "entity_id": "CASE-2026-000001",
+   "issue_type": "CASE_DISPOSITION_PRECEDES_ALERT",
+   "related_ids": [],
+   "table": "cases"
+  },
+  {
+   "account_id": null,
+   "affected_checks": [
+    "case_disposition_not_before_alerts",
+    "case_actions_not_before_open",
+    "case_closed_not_before_opened"
+   ],
+   "anomaly_id": "ANOM-0004",
+   "entity_id": "CASE-2026-000005",
+   "issue_type": "CASE_DISPOSITION_PRECEDES_ALERT",
+   "related_ids": [],
+   "table": "cases"
+  },
+  {
+   "account_id": "ACC-CUS-000159-01",
+   "affected_checks": [
+    "negative_balance_without_overdraft"
+   ],
+   "anomaly_id": "ANOM-0005",
+   "entity_id": "TXN-2026-00002983",
+   "issue_type": "NEGATIVE_BALANCE_NO_OVERDRAFT",
+   "related_ids": [],
+   "table": "transactions"
+  },
+  {
+   "account_id": "ACC-CUS-000001-01",
+   "affected_checks": [
+    "negative_balance_without_overdraft"
+   ],
+   "anomaly_id": "ANOM-0006",
+   "entity_id": "TXN-2026-00004398",
+   "issue_type": "NEGATIVE_BALANCE_NO_OVERDRAFT",
+   "related_ids": [],
+   "table": "transactions"
+  },
+  {
+   "account_id": null,
+   "affected_checks": [
+    "transfer_legs_reconcile"
+   ],
+   "anomaly_id": "ANOM-0007",
+   "entity_id": "TRF-2026-000090",
+   "issue_type": "TRANSFER_LEGS_DO_NOT_RECONCILE",
+   "related_ids": [
+    "TXN-2026-00003594"
+   ],
+   "table": "transfer_links"
+  },
+  {
+   "account_id": null,
+   "affected_checks": [
+    "transfer_legs_reconcile"
+   ],
+   "anomaly_id": "ANOM-0008",
+   "entity_id": "TRF-2026-000122",
+   "issue_type": "TRANSFER_LEGS_DO_NOT_RECONCILE",
+   "related_ids": [
+    "TXN-2026-00004187"
+   ],
+   "table": "transfer_links"
+  },
+  {
+   "account_id": "ACC-CUS-000152-01",
+   "affected_checks": [
+    "txn_not_after_account_close"
+   ],
+   "anomaly_id": "ANOM-0009",
+   "entity_id": "TXN-2026-00003098",
+   "issue_type": "TXN_REFERENCES_CLOSED_ACCOUNT",
+   "related_ids": [],
+   "table": "transactions"
+  },
+  {
+   "account_id": "ACC-CUS-000056-02",
+   "affected_checks": [
+    "txn_not_after_account_close"
+   ],
+   "anomaly_id": "ANOM-0010",
+   "entity_id": "TXN-2026-00004882",
+   "issue_type": "TXN_REFERENCES_CLOSED_ACCOUNT",
+   "related_ids": [],
+   "table": "transactions"
+  }
+ ],
+ "scenarios": [
+  {
+   "account_ids": [
+    "ACC-CUS-000214-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "Dormant >=185d then large debit",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S7-0001",
+   "scenario_type": "dormant_reactivation",
+   "txn_ids": [
+    "TXN-2026-00001047",
+    "TXN-2026-00004280"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000130-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "Dormant >=185d then large debit",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S7-0002",
+   "scenario_type": "dormant_reactivation",
+   "txn_ids": [
+    "TXN-2026-00000649",
+    "TXN-2026-00004234"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000119-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "Dormant >=185d then large debit",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S7-0003",
+   "scenario_type": "dormant_reactivation",
+   "txn_ids": [
+    "TXN-2026-00001054",
+    "TXN-2026-00004357"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000165-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "Dormant >=185d then large debit",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S7-0004",
+   "scenario_type": "dormant_reactivation",
+   "txn_ids": [
+    "TXN-2026-00000551",
+    "TXN-2026-00003757"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000059-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Dormant customer with comparable prior purchase, verified KYC",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S8-0001",
+   "scenario_type": "dormant_reactivation_benign",
+   "txn_ids": [
+    "TXN-2026-00000237",
+    "TXN-2026-00000688",
+    "TXN-2026-00004019"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000140-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Dormant customer with comparable prior purchase, verified KYC",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-S8-0002",
+   "scenario_type": "dormant_reactivation_benign",
+   "txn_ids": [
+    "TXN-2026-00000634",
+    "TXN-2026-00000654",
+    "TXN-2026-00004106"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000170-01"
+   ],
+   "expected_alert": false,
+   "expected_alert_count": 0,
+   "expected_decision": "NO_ALERT",
+   "label": "BOUNDARY_NO_ALERT",
+   "note": "Gap 150-175 days (threshold 180): must NOT alert",
+   "rule_id": "RULE-004",
+   "scenario_id": "SCN-B3-0001",
+   "scenario_type": "boundary_dormant_gap_lt_180",
+   "txn_ids": [
+    "TXN-2026-00001214",
+    "TXN-2026-00003846"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000163-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "10 debits in 20 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0001",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00003470",
+    "TXN-2026-00003474",
+    "TXN-2026-00003475",
+    "TXN-2026-00003476",
+    "TXN-2026-00003477",
+    "TXN-2026-00003478",
+    "TXN-2026-00003479",
+    "TXN-2026-00003480",
+    "TXN-2026-00003481",
+    "TXN-2026-00003482"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000131-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "8 debits in 37 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0002",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00003706",
+    "TXN-2026-00003707",
+    "TXN-2026-00003708",
+    "TXN-2026-00003709",
+    "TXN-2026-00003710",
+    "TXN-2026-00003711",
+    "TXN-2026-00003712",
+    "TXN-2026-00003713"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000230-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "11 debits in 35 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0003",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00003164",
+    "TXN-2026-00003165",
+    "TXN-2026-00003166",
+    "TXN-2026-00003167",
+    "TXN-2026-00003169",
+    "TXN-2026-00003170",
+    "TXN-2026-00003171",
+    "TXN-2026-00003172",
+    "TXN-2026-00003173",
+    "TXN-2026-00003174",
+    "TXN-2026-00003175"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000104-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "7 debits in 41 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0004",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00001632",
+    "TXN-2026-00001633",
+    "TXN-2026-00001634",
+    "TXN-2026-00001635",
+    "TXN-2026-00001636",
+    "TXN-2026-00001637",
+    "TXN-2026-00001644"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000008-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "12 debits in 37 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0005",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00004372",
+    "TXN-2026-00004373",
+    "TXN-2026-00004374",
+    "TXN-2026-00004375",
+    "TXN-2026-00004376",
+    "TXN-2026-00004377",
+    "TXN-2026-00004378",
+    "TXN-2026-00004379",
+    "TXN-2026-00004380",
+    "TXN-2026-00004381",
+    "TXN-2026-00004382",
+    "TXN-2026-00004383"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000044-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "7 debits in 32 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0006",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00002613",
+    "TXN-2026-00002614",
+    "TXN-2026-00002615",
+    "TXN-2026-00002616",
+    "TXN-2026-00002617",
+    "TXN-2026-00002618",
+    "TXN-2026-00002619"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000150-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "8 debits in 15 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0007",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00001638",
+    "TXN-2026-00001639",
+    "TXN-2026-00001640",
+    "TXN-2026-00001641",
+    "TXN-2026-00001642",
+    "TXN-2026-00001643",
+    "TXN-2026-00001645",
+    "TXN-2026-00001646"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000009-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "8 debits in 30 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0008",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00001032",
+    "TXN-2026-00001034",
+    "TXN-2026-00001035",
+    "TXN-2026-00001036",
+    "TXN-2026-00001037",
+    "TXN-2026-00001038",
+    "TXN-2026-00001039",
+    "TXN-2026-00001040"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000076-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "10 debits in 49 min",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S1-0009",
+   "scenario_type": "velocity_spike",
+   "txn_ids": [
+    "TXN-2026-00002770",
+    "TXN-2026-00002771",
+    "TXN-2026-00002772",
+    "TXN-2026-00002773",
+    "TXN-2026-00002774",
+    "TXN-2026-00002775",
+    "TXN-2026-00002776",
+    "TXN-2026-00002777",
+    "TXN-2026-00002778",
+    "TXN-2026-00002779"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000144-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Repeat purchases at a known merchant",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S2-0001",
+   "scenario_type": "velocity_benign",
+   "txn_ids": [
+    "TXN-2026-00003181",
+    "TXN-2026-00003202",
+    "TXN-2026-00003237",
+    "TXN-2026-00003544",
+    "TXN-2026-00003545",
+    "TXN-2026-00003546",
+    "TXN-2026-00003547",
+    "TXN-2026-00003548",
+    "TXN-2026-00003549"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000032-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Repeat purchases at a known merchant",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S2-0002",
+   "scenario_type": "velocity_benign",
+   "txn_ids": [
+    "TXN-2026-00000526",
+    "TXN-2026-00000564",
+    "TXN-2026-00000609",
+    "TXN-2026-00000965",
+    "TXN-2026-00000966",
+    "TXN-2026-00000967",
+    "TXN-2026-00000968",
+    "TXN-2026-00000969",
+    "TXN-2026-00000970"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000035-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Repeat purchases at a known merchant",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-S2-0003",
+   "scenario_type": "velocity_benign",
+   "txn_ids": [
+    "TXN-2026-00002076",
+    "TXN-2026-00002159",
+    "TXN-2026-00002334",
+    "TXN-2026-00002536",
+    "TXN-2026-00002537",
+    "TXN-2026-00002538",
+    "TXN-2026-00002539",
+    "TXN-2026-00002540",
+    "TXN-2026-00002541"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000145-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0001",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00002384"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000057-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0002",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00003229"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000250-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0003",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00003232"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000198-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0004",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00004342"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000188-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0005",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00004371"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000155-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0006",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00002468"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000208-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0007",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00002144"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000041-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0008",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00002102"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000084-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0009",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00002347"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000205-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "New device linked <3h before large purchase",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S3-0010",
+   "scenario_type": "new_device_high_value",
+   "txn_ids": [
+    "TXN-2026-00003193"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000236-01",
+    "ACC-CUS-000239-01",
+    "ACC-CUS-000086-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 3,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "3-account loop within 72h",
+   "rule_id": "RULE-003",
+   "scenario_id": "SCN-S5-0001",
+   "scenario_type": "circular_transfer",
+   "txn_ids": [
+    "TXN-2026-00001910",
+    "TXN-2026-00001911",
+    "TXN-2026-00001914",
+    "TXN-2026-00001915",
+    "TXN-2026-00001927",
+    "TXN-2026-00001929"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000243-01",
+    "ACC-CUS-000185-01",
+    "ACC-CUS-000080-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 3,
+   "expected_decision": "CONFIRMED_SUSPICIOUS",
+   "label": "SUSPICIOUS",
+   "note": "3-account loop within 72h",
+   "rule_id": "RULE-003",
+   "scenario_id": "SCN-S5-0002",
+   "scenario_type": "circular_transfer",
+   "txn_ids": [
+    "TXN-2026-00003263",
+    "TXN-2026-00003264",
+    "TXN-2026-00003288",
+    "TXN-2026-00003289",
+    "TXN-2026-00003305",
+    "TXN-2026-00003306"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000137-01",
+    "ACC-CUS-000052-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 2,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "Deposit paid and refunded between known counterparties",
+   "rule_id": "RULE-003",
+   "scenario_id": "SCN-S6-0001",
+   "scenario_type": "reciprocal_transfer_benign",
+   "txn_ids": [
+    "TXN-2026-00003064",
+    "TXN-2026-00003065",
+    "TXN-2026-00003988",
+    "TXN-2026-00003989",
+    "TXN-2026-00004010",
+    "TXN-2026-00004011"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000142-01"
+   ],
+   "expected_alert": false,
+   "expected_alert_count": 0,
+   "expected_decision": "NO_ALERT",
+   "label": "BOUNDARY_NO_ALERT",
+   "note": "Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-B1-0001",
+   "scenario_type": "boundary_new_device_below_threshold",
+   "txn_ids": [
+    "TXN-2026-00001119"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000151-01"
+   ],
+   "expected_alert": false,
+   "expected_alert_count": 0,
+   "expected_decision": "NO_ALERT",
+   "label": "BOUNDARY_NO_ALERT",
+   "note": "5 debits in <60 min (threshold 6): must NOT alert",
+   "rule_id": "RULE-001",
+   "scenario_id": "SCN-B2-0001",
+   "scenario_type": "boundary_velocity_below_count",
+   "txn_ids": [
+    "TXN-2026-00002391",
+    "TXN-2026-00002392",
+    "TXN-2026-00002393",
+    "TXN-2026-00002394",
+    "TXN-2026-00002395"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000102-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0001",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00001686",
+    "TXN-2026-00002462"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000004-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0002",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00003095",
+    "TXN-2026-00004020"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000193-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0003",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00001143",
+    "TXN-2026-00001999"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000237-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0004",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00002060",
+    "TXN-2026-00003790"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000079-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0005",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00000648",
+    "TXN-2026-00002547"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000242-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0006",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00003457",
+    "TXN-2026-00004874"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000038-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0007",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00002851",
+    "TXN-2026-00004490"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000091-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0008",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00002523",
+    "TXN-2026-00003552"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000042-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0009",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00002460",
+    "TXN-2026-00004772"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000197-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0010",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00002226",
+    "TXN-2026-00003239"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000123-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0011",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00000990",
+    "TXN-2026-00002038"
+   ]
+  },
+  {
+   "account_ids": [
+    "ACC-CUS-000093-01"
+   ],
+   "expected_alert": true,
+   "expected_alert_count": 1,
+   "expected_decision": "FALSE_POSITIVE",
+   "label": "BENIGN_FALSE_POSITIVE",
+   "note": "New phone + comparable prior purchase, verified long-tenure customer",
+   "rule_id": "RULE-002",
+   "scenario_id": "SCN-S4-0012",
+   "scenario_type": "new_device_benign",
+   "txn_ids": [
+    "TXN-2026-00003039",
+    "TXN-2026-00003633"
+   ]
+  }
+ ]
+}

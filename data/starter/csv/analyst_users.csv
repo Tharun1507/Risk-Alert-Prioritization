@@ -1,0 +1,9 @@
+user_id,full_name,role,team,active_from,status
+USR-001,Deepa Kulkarni,OPS_ANALYST,Transaction Monitoring,2025-01-01,ACTIVE
+USR-002,Farhan Naidu,OPS_ANALYST,Transaction Monitoring,2025-01-01,ACTIVE
+USR-003,Aarav Kulkarni,OPS_ANALYST,Transaction Monitoring,2025-01-01,ACTIVE
+USR-004,Kavya Reddy,OPS_ANALYST,Transaction Monitoring,2025-01-01,ACTIVE
+USR-005,Meera Mehta,RISK_REVIEWER,Risk & Compliance,2025-01-01,ACTIVE
+USR-006,Riya Pillai,RISK_REVIEWER,Risk & Compliance,2025-01-01,ACTIVE
+USR-007,Imran Menon,SYS_ADMIN,Platform Administration,2025-01-01,ACTIVE
+USR-008,Vikram Verma,SYS_ADMIN,Platform Administration,2025-01-01,ACTIVE

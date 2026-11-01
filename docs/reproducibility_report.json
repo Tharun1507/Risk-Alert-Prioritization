@@ -1,0 +1,135 @@
+{
+ "seed": 20261022,
+ "scale": 1.0,
+ "runs": 2,
+ "files_compared": 25,
+ "identical": true,
+ "mismatches": [],
+ "files": {
+  "csv/account_parties.csv": {
+   "sha256": "50f1d5a2342aee84d0d3c3782da89195df5043ddbc9d6fd4105b4e361f80c552",
+   "rows": 7610,
+   "run2_matches": true
+  },
+  "csv/account_status_events.csv": {
+   "sha256": "3dba68768b75be7ded96aa849ee5526fe808c254bd78ae38515013c772848ecb",
+   "rows": 7733,
+   "run2_matches": true
+  },
+  "csv/accounts.csv": {
+   "sha256": "d7201f90674318df55c6a19fea05026acbf75bebd12079419ed704fb876299c3",
+   "rows": 7000,
+   "run2_matches": true
+  },
+  "csv/alert_transactions.csv": {
+   "sha256": "e8f90667ee990b9af2c7718cdf969f8a380ae5abe965f028e65a6f0ae126632d",
+   "rows": 3325,
+   "run2_matches": true
+  },
+  "csv/alerts.csv": {
+   "sha256": "e9a002b4286ea3de3784ea42c2bdd5050ee631503c57c06a1bcc2755af01e703",
+   "rows": 1000,
+   "run2_matches": true
+  },
+  "csv/analyst_actions.csv": {
+   "sha256": "d26ae9667fe24537486d71cc4e167104062bd543fab31c3c71520c3a53c7d04d",
+   "rows": 2339,
+   "run2_matches": true
+  },
+  "csv/analyst_users.csv": {
+   "sha256": "a4a1c218418549bb371a379e96b475409c0f8e888ac3460781ac8ea7bbdef937",
+   "rows": 27,
+   "run2_matches": true
+  },
+  "csv/cases.csv": {
+   "sha256": "7add1eed4f7e2976f1c7f679cc95a752458b03faaa07c76675baacbbcb198045",
+   "rows": 820,
+   "run2_matches": true
+  },
+  "csv/customers.csv": {
+   "sha256": "af68c6b944021b952ff714c95e91d6d3f257e729b52ca3d3529e8854bb89c176",
+   "rows": 5000,
+   "run2_matches": true
+  },
+  "csv/device_account_links.csv": {
+   "sha256": "a84d66ec87be9e8afa255481856f1ba68e0e4c07af6884bbd191ccae06b53b4c",
+   "rows": 9679,
+   "run2_matches": true
+  },
+  "csv/devices.csv": {
+   "sha256": "01e050b39ed09165bc50208ac17b95bf2016b8914125f7385f27f79cb3fd4563",
+   "rows": 6843,
+   "run2_matches": true
+  },
+  "csv/kyc_profiles.csv": {
+   "sha256": "8df15e88c4a6999ff8a4238a9f99699f97fde1e8c4cf92a3fc028c3059c1d365",
+   "rows": 5000,
+   "run2_matches": true
+  },
+  "csv/merchants.csv": {
+   "sha256": "7445e664d84758b0527f3ebe984137f223d9e1aac92141c18a1d61eef1b84f91",
+   "rows": 400,
+   "run2_matches": true
+  },
+  "csv/risk_rules.csv": {
+   "sha256": "f092ed9bc1fbdd8ef10446c7f051aac4713b8e4c4e1d81d603a513f817b340c2",
+   "rows": 5,
+   "run2_matches": true
+  },
+  "csv/transactions.csv": {
+   "sha256": "edd79c3c1785f575f459a4e949e2e28a16cfda44650dc68dd579d01765ef6973",
+   "rows": 100000,
+   "run2_matches": true
+  },
+  "csv/transfer_links.csv": {
+   "sha256": "8c607b6f39d36842565ef3ac2115d3600aa1fee58b69da70b75615899e8f2b69",
+   "rows": 3188,
+   "run2_matches": true
+  },
+  "data_dictionary.md": {
+   "sha256": "4f7cc9047cb7148bfc9254fea01db00a73c90b5d1c872334173ecc7883ec6baa",
+   "rows": null,
+   "run2_matches": true
+  },
+  "evaluation_metrics.json": {
+   "sha256": "53481683a05b7b5457e0e66173857196fb13e2cb434dc6e46e22d748be7843f2",
+   "rows": null,
+   "run2_matches": true
+  },
+  "evaluation_report.md": {
+   "sha256": "5fdd0d149874d4d4947c2d15c33d5a1c06f6be6b7d39f387532a606123a96e3d",
+   "rows": null,
+   "run2_matches": true
+  },
+  "ground_truth/ground_truth.json": {
+   "sha256": "8187cfec7b505fc1788ec8c65e32b21d9cce3cbffd9f8f67b17c35489709ca4f",
+   "rows": null,
+   "run2_matches": true
+  },
+  "ground_truth/injected_anomalies.csv": {
+   "sha256": "5916c1d1b43fb543ca5930b4d8a0e810ab1e52da39e0f9e8529513bd1e4f27f7",
+   "rows": null,
+   "run2_matches": true
+  },
+  "ground_truth/scenario_entities.csv": {
+   "sha256": "afce2a221cb0f05ce27b894ab33d290cb5b5cb087525134115cd0c2276cc9c26",
+   "rows": null,
+   "run2_matches": true
+  },
+  "ground_truth/scenarios.csv": {
+   "sha256": "54af699e6beca64efdae4c3c04cb68a1c7d2a0a058f35bd274c6358d73f49977",
+   "rows": null,
+   "run2_matches": true
+  },
+  "sql/schema.sql": {
+   "sha256": "10f3e9cc0a62bffb238d7b9abd2549e5f612284a152b01d196ebf2e5ec49b5a0",
+   "rows": null,
+   "run2_matches": true
+  },
+  "sql/seed.sql": {
+   "sha256": "4ecc3cd3513582b08436b34cdaf5a9124ac134ba7f2fb4ca8387512bd2a35c23",
+   "rows": null,
+   "run2_matches": true
+  }
+ }
+}

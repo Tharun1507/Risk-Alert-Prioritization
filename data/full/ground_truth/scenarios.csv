@@ -1,0 +1,964 @@
+scenario_id,scenario_type,label,rule_id,expected_alert,expected_alert_count,expected_decision,n_accounts,n_transactions,note
+SCN-S7-0001,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0002,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0003,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0004,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0005,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0006,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0007,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0008,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0009,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0010,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0011,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0012,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0013,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0014,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0015,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0016,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0017,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0018,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0019,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0020,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0021,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0022,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0023,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0024,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0025,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0026,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0027,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0028,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0029,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0030,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0031,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0032,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0033,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0034,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0035,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0036,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0037,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0038,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0039,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0040,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0041,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0042,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0043,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0044,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0045,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0046,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0047,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0048,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0049,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0050,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0051,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0052,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0053,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0054,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0055,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0056,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0057,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0058,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0059,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0060,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0061,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0062,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0063,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0064,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0065,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0066,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0067,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0068,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0069,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0070,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0071,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0072,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0073,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0074,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0075,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0076,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0077,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0078,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0079,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0080,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0081,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0082,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0083,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0084,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0085,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0086,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0087,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0088,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S7-0089,dormant_reactivation,SUSPICIOUS,RULE-004,1,1,CONFIRMED_SUSPICIOUS,1,2,Dormant >=185d then large debit
+SCN-S8-0001,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0002,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0003,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0004,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0005,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0006,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0007,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0008,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0009,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0010,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0011,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0012,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0013,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0014,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0015,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0016,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0017,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0018,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0019,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0020,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0021,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0022,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0023,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0024,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0025,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0026,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0027,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0028,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0029,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0030,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0031,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0032,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0033,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0034,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0035,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0036,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0037,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0038,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0039,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0040,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0041,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0042,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0043,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0044,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0045,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0046,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0047,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0048,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0049,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-S8-0050,dormant_reactivation_benign,BENIGN_FALSE_POSITIVE,RULE-004,1,1,FALSE_POSITIVE,1,3,"Dormant customer with comparable prior purchase, verified KYC"
+SCN-B3-0001,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0002,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0003,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0004,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0005,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0006,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0007,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0008,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0009,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0010,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0011,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0012,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0013,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0014,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0015,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0016,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0017,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0018,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0019,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0020,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0021,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0022,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0023,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0024,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0025,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0026,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0027,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0028,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0029,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-B3-0030,boundary_dormant_gap_lt_180,BOUNDARY_NO_ALERT,RULE-004,0,0,NO_ALERT,1,2,Gap 150-175 days (threshold 180): must NOT alert
+SCN-S1-0001,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 20 min
+SCN-S1-0002,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 21 min
+SCN-S1-0003,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 43 min
+SCN-S1-0004,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 30 min
+SCN-S1-0005,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 21 min
+SCN-S1-0006,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 16 min
+SCN-S1-0007,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 29 min
+SCN-S1-0008,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 24 min
+SCN-S1-0009,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 38 min
+SCN-S1-0010,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 44 min
+SCN-S1-0011,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 44 min
+SCN-S1-0012,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 38 min
+SCN-S1-0013,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 48 min
+SCN-S1-0014,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 20 min
+SCN-S1-0015,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 41 min
+SCN-S1-0016,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 49 min
+SCN-S1-0017,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 15 min
+SCN-S1-0018,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 49 min
+SCN-S1-0019,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 27 min
+SCN-S1-0020,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 40 min
+SCN-S1-0021,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 43 min
+SCN-S1-0022,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 22 min
+SCN-S1-0023,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 32 min
+SCN-S1-0024,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 27 min
+SCN-S1-0025,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 35 min
+SCN-S1-0026,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 19 min
+SCN-S1-0027,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 48 min
+SCN-S1-0028,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 19 min
+SCN-S1-0029,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 20 min
+SCN-S1-0030,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 25 min
+SCN-S1-0031,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 35 min
+SCN-S1-0032,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 22 min
+SCN-S1-0033,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 41 min
+SCN-S1-0034,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 38 min
+SCN-S1-0035,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 33 min
+SCN-S1-0036,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 28 min
+SCN-S1-0037,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 37 min
+SCN-S1-0038,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 42 min
+SCN-S1-0039,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 45 min
+SCN-S1-0040,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 49 min
+SCN-S1-0041,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 27 min
+SCN-S1-0042,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 49 min
+SCN-S1-0043,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 41 min
+SCN-S1-0044,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 15 min
+SCN-S1-0045,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 32 min
+SCN-S1-0046,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 25 min
+SCN-S1-0047,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 16 min
+SCN-S1-0048,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 47 min
+SCN-S1-0049,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 28 min
+SCN-S1-0050,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 23 min
+SCN-S1-0051,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 36 min
+SCN-S1-0052,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 44 min
+SCN-S1-0053,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 36 min
+SCN-S1-0054,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 26 min
+SCN-S1-0055,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 17 min
+SCN-S1-0056,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 28 min
+SCN-S1-0057,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 25 min
+SCN-S1-0058,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 16 min
+SCN-S1-0059,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 20 min
+SCN-S1-0060,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 41 min
+SCN-S1-0061,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 41 min
+SCN-S1-0062,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 45 min
+SCN-S1-0063,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 33 min
+SCN-S1-0064,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 31 min
+SCN-S1-0065,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 18 min
+SCN-S1-0066,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 40 min
+SCN-S1-0067,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 31 min
+SCN-S1-0068,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 39 min
+SCN-S1-0069,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 26 min
+SCN-S1-0070,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 16 min
+SCN-S1-0071,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 22 min
+SCN-S1-0072,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 41 min
+SCN-S1-0073,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 28 min
+SCN-S1-0074,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 28 min
+SCN-S1-0075,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 25 min
+SCN-S1-0076,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 33 min
+SCN-S1-0077,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 47 min
+SCN-S1-0078,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 32 min
+SCN-S1-0079,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 44 min
+SCN-S1-0080,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 39 min
+SCN-S1-0081,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 22 min
+SCN-S1-0082,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 35 min
+SCN-S1-0083,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 49 min
+SCN-S1-0084,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 17 min
+SCN-S1-0085,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 39 min
+SCN-S1-0086,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 25 min
+SCN-S1-0087,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 42 min
+SCN-S1-0088,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 49 min
+SCN-S1-0089,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 42 min
+SCN-S1-0090,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 34 min
+SCN-S1-0091,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 22 min
+SCN-S1-0092,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 38 min
+SCN-S1-0093,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 42 min
+SCN-S1-0094,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 24 min
+SCN-S1-0095,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 43 min
+SCN-S1-0096,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 45 min
+SCN-S1-0097,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 49 min
+SCN-S1-0098,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 31 min
+SCN-S1-0099,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 26 min
+SCN-S1-0100,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 24 min
+SCN-S1-0101,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 43 min
+SCN-S1-0102,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 44 min
+SCN-S1-0103,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 32 min
+SCN-S1-0104,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 34 min
+SCN-S1-0105,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 15 min
+SCN-S1-0106,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 37 min
+SCN-S1-0107,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 25 min
+SCN-S1-0108,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 27 min
+SCN-S1-0109,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 31 min
+SCN-S1-0110,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 29 min
+SCN-S1-0111,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 15 min
+SCN-S1-0112,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 43 min
+SCN-S1-0113,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 25 min
+SCN-S1-0114,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 25 min
+SCN-S1-0115,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 31 min
+SCN-S1-0116,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 40 min
+SCN-S1-0117,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 33 min
+SCN-S1-0118,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 26 min
+SCN-S1-0119,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 15 min
+SCN-S1-0120,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 48 min
+SCN-S1-0121,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 47 min
+SCN-S1-0122,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 33 min
+SCN-S1-0123,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 49 min
+SCN-S1-0124,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 27 min
+SCN-S1-0125,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 45 min
+SCN-S1-0126,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 43 min
+SCN-S1-0127,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 24 min
+SCN-S1-0128,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 26 min
+SCN-S1-0129,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 49 min
+SCN-S1-0130,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 21 min
+SCN-S1-0131,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 40 min
+SCN-S1-0132,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 16 min
+SCN-S1-0133,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 29 min
+SCN-S1-0134,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 45 min
+SCN-S1-0135,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 42 min
+SCN-S1-0136,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 34 min
+SCN-S1-0137,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 45 min
+SCN-S1-0138,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 49 min
+SCN-S1-0139,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 40 min
+SCN-S1-0140,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 39 min
+SCN-S1-0141,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 20 min
+SCN-S1-0142,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 18 min
+SCN-S1-0143,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 42 min
+SCN-S1-0144,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 42 min
+SCN-S1-0145,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 28 min
+SCN-S1-0146,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 41 min
+SCN-S1-0147,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 32 min
+SCN-S1-0148,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 28 min
+SCN-S1-0149,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 25 min
+SCN-S1-0150,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 40 min
+SCN-S1-0151,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 16 min
+SCN-S1-0152,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 27 min
+SCN-S1-0153,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 15 min
+SCN-S1-0154,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 37 min
+SCN-S1-0155,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 16 min
+SCN-S1-0156,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 42 min
+SCN-S1-0157,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 22 min
+SCN-S1-0158,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 17 min
+SCN-S1-0159,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 19 min
+SCN-S1-0160,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 25 min
+SCN-S1-0161,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 41 min
+SCN-S1-0162,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 29 min
+SCN-S1-0163,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 18 min
+SCN-S1-0164,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 48 min
+SCN-S1-0165,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 16 min
+SCN-S1-0166,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 27 min
+SCN-S1-0167,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 34 min
+SCN-S1-0168,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 17 min
+SCN-S1-0169,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 49 min
+SCN-S1-0170,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 28 min
+SCN-S1-0171,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 46 min
+SCN-S1-0172,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 15 min
+SCN-S1-0173,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 48 min
+SCN-S1-0174,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 45 min
+SCN-S1-0175,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 34 min
+SCN-S1-0176,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 21 min
+SCN-S1-0177,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,7,7 debits in 47 min
+SCN-S1-0178,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 17 min
+SCN-S1-0179,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 23 min
+SCN-S1-0180,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 26 min
+SCN-S1-0181,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 30 min
+SCN-S1-0182,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 19 min
+SCN-S1-0183,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 37 min
+SCN-S1-0184,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 27 min
+SCN-S1-0185,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,12,12 debits in 45 min
+SCN-S1-0186,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,8,8 debits in 20 min
+SCN-S1-0187,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,9,9 debits in 28 min
+SCN-S1-0188,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,10,10 debits in 38 min
+SCN-S1-0189,velocity_spike,SUSPICIOUS,RULE-001,1,1,CONFIRMED_SUSPICIOUS,1,11,11 debits in 19 min
+SCN-S2-0001,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0002,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0003,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0004,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0005,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0006,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0007,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0008,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0009,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0010,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0011,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0012,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0013,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0014,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0015,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0016,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0017,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0018,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0019,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0020,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0021,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0022,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0023,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0024,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0025,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0026,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0027,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0028,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0029,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0030,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0031,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0032,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0033,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0034,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0035,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0036,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0037,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0038,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0039,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0040,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0041,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0042,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0043,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0044,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0045,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0046,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0047,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0048,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0049,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0050,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0051,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0052,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0053,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0054,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0055,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0056,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S2-0057,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0058,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0059,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,10,Repeat purchases at a known merchant
+SCN-S2-0060,velocity_benign,BENIGN_FALSE_POSITIVE,RULE-001,1,1,FALSE_POSITIVE,1,9,Repeat purchases at a known merchant
+SCN-S3-0001,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0002,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0003,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0004,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0005,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0006,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0007,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0008,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0009,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0010,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0011,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0012,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0013,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0014,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0015,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0016,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0017,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0018,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0019,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0020,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0021,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0022,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0023,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0024,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0025,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0026,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0027,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0028,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0029,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0030,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0031,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0032,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0033,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0034,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0035,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0036,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0037,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0038,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0039,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0040,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0041,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0042,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0043,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0044,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0045,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0046,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0047,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0048,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0049,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0050,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0051,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0052,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0053,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0054,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0055,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0056,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0057,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0058,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0059,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0060,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0061,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0062,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0063,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0064,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0065,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0066,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0067,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0068,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0069,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0070,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0071,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0072,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0073,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0074,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0075,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0076,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0077,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0078,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0079,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0080,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0081,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0082,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0083,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0084,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0085,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0086,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0087,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0088,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0089,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0090,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0091,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0092,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0093,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0094,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0095,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0096,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0097,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0098,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0099,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0100,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0101,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0102,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0103,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0104,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0105,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0106,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0107,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0108,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0109,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0110,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0111,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0112,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0113,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0114,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0115,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0116,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0117,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0118,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0119,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0120,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0121,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0122,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0123,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0124,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0125,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0126,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0127,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0128,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0129,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0130,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0131,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0132,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0133,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0134,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0135,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0136,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0137,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0138,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0139,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0140,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0141,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0142,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0143,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0144,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0145,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0146,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0147,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0148,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0149,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0150,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0151,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0152,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0153,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0154,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0155,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0156,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0157,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0158,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0159,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0160,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0161,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0162,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0163,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0164,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0165,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0166,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0167,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0168,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0169,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0170,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0171,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0172,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0173,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0174,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0175,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0176,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0177,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0178,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0179,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0180,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0181,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0182,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0183,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0184,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0185,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0186,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0187,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0188,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0189,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0190,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0191,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0192,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0193,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0194,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0195,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0196,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0197,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0198,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S3-0199,new_device_high_value,SUSPICIOUS,RULE-002,1,1,CONFIRMED_SUSPICIOUS,1,1,New device linked <3h before large purchase
+SCN-S5-0001,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0002,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0003,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0004,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0005,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0006,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0007,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0008,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0009,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0010,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0011,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0012,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0013,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0014,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0015,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0016,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0017,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0018,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0019,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0020,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0021,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0022,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0023,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0024,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0025,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0026,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0027,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0028,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0029,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0030,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0031,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0032,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0033,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0034,circular_transfer,SUSPICIOUS,RULE-003,1,4,CONFIRMED_SUSPICIOUS,4,8,4-account loop within 72h
+SCN-S5-0035,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0036,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0037,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0038,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0039,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0040,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S5-0041,circular_transfer,SUSPICIOUS,RULE-003,1,3,CONFIRMED_SUSPICIOUS,3,6,3-account loop within 72h
+SCN-S6-0001,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0002,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0003,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0004,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0005,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0006,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0007,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0008,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0009,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0010,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0011,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0012,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0013,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0014,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0015,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0016,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0017,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0018,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0019,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0020,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0021,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0022,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0023,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0024,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-S6-0025,reciprocal_transfer_benign,BENIGN_FALSE_POSITIVE,RULE-003,1,2,FALSE_POSITIVE,2,6,Deposit paid and refunded between known counterparties
+SCN-B1-0001,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0002,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0003,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0004,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0005,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0006,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0007,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0008,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0009,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0010,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0011,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0012,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0013,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0014,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0015,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0016,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0017,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0018,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0019,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0020,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0021,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0022,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0023,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0024,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0025,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0026,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0027,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0028,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0029,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B1-0030,boundary_new_device_below_threshold,BOUNDARY_NO_ALERT,RULE-002,0,0,NO_ALERT,1,1,"Amount below RULE-002 v1 threshold (25,000) before 2026-07-01: must NOT alert"
+SCN-B2-0001,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0002,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0003,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0004,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0005,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0006,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0007,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0008,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0009,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0010,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0011,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0012,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0013,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0014,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0015,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0016,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0017,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0018,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0019,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0020,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0021,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0022,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0023,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0024,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0025,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0026,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0027,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0028,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0029,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-B2-0030,boundary_velocity_below_count,BOUNDARY_NO_ALERT,RULE-001,0,0,NO_ALERT,1,5,5 debits in <60 min (threshold 6): must NOT alert
+SCN-S4-0001,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0002,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0003,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0004,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0005,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0006,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0007,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0008,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0009,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0010,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0011,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0012,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0013,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0014,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0015,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0016,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0017,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0018,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0019,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0020,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0021,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0022,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0023,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0024,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0025,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0026,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0027,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0028,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0029,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0030,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0031,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0032,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0033,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0034,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0035,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0036,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0037,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0038,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0039,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0040,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0041,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0042,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0043,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0044,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0045,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0046,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0047,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0048,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0049,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0050,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0051,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0052,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0053,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0054,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0055,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0056,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0057,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0058,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0059,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0060,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0061,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0062,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0063,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0064,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0065,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0066,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0067,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0068,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0069,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0070,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0071,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0072,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0073,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0074,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0075,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0076,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0077,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0078,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0079,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0080,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0081,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0082,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0083,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0084,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0085,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0086,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0087,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0088,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0089,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0090,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0091,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0092,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0093,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0094,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0095,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0096,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0097,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0098,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0099,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0100,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0101,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0102,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0103,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0104,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0105,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0106,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0107,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0108,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0109,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0110,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0111,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0112,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0113,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0114,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0115,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0116,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0117,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0118,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0119,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0120,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0121,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0122,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0123,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0124,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0125,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0126,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0127,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0128,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0129,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0130,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0131,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0132,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0133,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0134,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0135,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0136,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0137,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0138,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0139,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0140,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0141,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0142,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0143,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0144,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0145,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0146,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0147,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0148,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0149,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0150,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0151,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0152,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0153,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0154,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0155,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0156,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0157,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0158,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0159,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0160,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0161,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0162,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0163,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0164,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0165,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0166,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0167,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0168,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0169,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0170,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0171,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0172,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0173,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0174,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0175,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0176,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0177,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0178,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0179,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0180,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0181,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0182,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0183,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0184,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0185,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0186,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0187,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0188,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0189,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0190,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0191,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0192,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0193,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0194,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0195,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0196,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0197,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0198,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0199,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0200,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0201,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0202,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0203,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0204,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0205,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0206,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0207,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0208,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0209,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0210,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0211,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0212,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0213,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0214,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0215,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0216,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0217,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0218,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0219,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"
+SCN-S4-0220,new_device_benign,BENIGN_FALSE_POSITIVE,RULE-002,1,1,FALSE_POSITIVE,1,2,"New phone + comparable prior purchase, verified long-tenure customer"

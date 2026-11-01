@@ -1,0 +1,11 @@
+anomaly_id,issue_type,table,entity_id,account_id,related_ids,affected_checks
+ANOM-0001,ALERT_HAS_NO_TRIGGERING_TRANSACTION,alerts,ALT-2026-000003,,,alert_has_trigger_txn
+ANOM-0002,ALERT_HAS_NO_TRIGGERING_TRANSACTION,alerts,ALT-2026-000047,,,alert_has_trigger_txn
+ANOM-0003,CASE_DISPOSITION_PRECEDES_ALERT,cases,CASE-2026-000001,,,case_disposition_not_before_alerts|case_actions_not_before_open|case_closed_not_before_opened
+ANOM-0004,CASE_DISPOSITION_PRECEDES_ALERT,cases,CASE-2026-000005,,,case_disposition_not_before_alerts|case_actions_not_before_open|case_closed_not_before_opened
+ANOM-0005,NEGATIVE_BALANCE_NO_OVERDRAFT,transactions,TXN-2026-00002983,ACC-CUS-000159-01,,negative_balance_without_overdraft
+ANOM-0006,NEGATIVE_BALANCE_NO_OVERDRAFT,transactions,TXN-2026-00004398,ACC-CUS-000001-01,,negative_balance_without_overdraft
+ANOM-0007,TRANSFER_LEGS_DO_NOT_RECONCILE,transfer_links,TRF-2026-000090,,TXN-2026-00003594,transfer_legs_reconcile
+ANOM-0008,TRANSFER_LEGS_DO_NOT_RECONCILE,transfer_links,TRF-2026-000122,,TXN-2026-00004187,transfer_legs_reconcile
+ANOM-0009,TXN_REFERENCES_CLOSED_ACCOUNT,transactions,TXN-2026-00003098,ACC-CUS-000152-01,,txn_not_after_account_close
+ANOM-0010,TXN_REFERENCES_CLOSED_ACCOUNT,transactions,TXN-2026-00004882,ACC-CUS-000056-02,,txn_not_after_account_close

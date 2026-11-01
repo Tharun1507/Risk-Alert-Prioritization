@@ -1,0 +1,245 @@
+{
+ "calendar": {
+  "as_of": "2026-10-22",
+  "transactions": "2026-01-01..2026-10-15"
+ },
+ "calibration": {
+  "fp_extra": 5
+ },
+ "config": {
+  "n_accounts": 350,
+  "n_admins": 2,
+  "n_alerts": 50,
+  "n_customers": 250,
+  "n_edge": 2,
+  "n_merchants": 40,
+  "n_ops": 4,
+  "n_reviewers": 2,
+  "n_transactions": 5000,
+  "scale": 0.05,
+  "seed": 20261022
+ },
+ "external_data_used": [],
+ "files": {
+  "csv/account_parties.csv": {
+   "bytes": 18261,
+   "rows": 383,
+   "sha256": "ed560441f626013829ab5e126e167fcd50ce1332a32d6cc8cfe8c5f4ee4615d6"
+  },
+  "csv/account_status_events.csv": {
+   "bytes": 31347,
+   "rows": 382,
+   "sha256": "e1093242fd33cd27abfea32d1569f32394972810145cda568f6e60625ab1329f"
+  },
+  "csv/accounts.csv": {
+   "bytes": 36847,
+   "rows": 350,
+   "sha256": "91232e8b39d0d5e59aa6d15b4226f093ad15f243a34e5d6fbe99aa18319c1f9c"
+  },
+  "csv/alert_transactions.csv": {
+   "bytes": 6440,
+   "rows": 150,
+   "sha256": "2ee5e9322805be2ef511c57d74d3e2f2cd8f3b92b73b3b6c02521d972c751793"
+  },
+  "csv/alerts.csv": {
+   "bytes": 30367,
+   "rows": 50,
+   "sha256": "63dc103d30b98a6b40ac32c274181721f762991ddd2329ecd47744ac394309a5"
+  },
+  "csv/analyst_actions.csv": {
+   "bytes": 19250,
+   "rows": 114,
+   "sha256": "7aa77c2578c3976784c3546a31232f12cb82c164865bc145e2565db5f81d738c"
+  },
+  "csv/analyst_users.csv": {
+   "bytes": 631,
+   "rows": 8,
+   "sha256": "ce631b567efc1a7f85859b25e499547afe553ae9559e7e32ca020a7b4bc03468"
+  },
+  "csv/cases.csv": {
+   "bytes": 6262,
+   "rows": 41,
+   "sha256": "0b133be2d506c8899dd18d43e8a049db2d20c706f71ebadd089740e727bee975"
+  },
+  "csv/customers.csv": {
+   "bytes": 20754,
+   "rows": 250,
+   "sha256": "75802b636d10f636835117de283b59e8a0b7d216ff6e1228766fbafaa8caab47"
+  },
+  "csv/device_account_links.csv": {
+   "bytes": 30167,
+   "rows": 488,
+   "sha256": "3fb3d61d741ed99b5e9751a855c4927f47319b9cbb66165b86646cf6b7605f61"
+  },
+  "csv/devices.csv": {
+   "bytes": 23971,
+   "rows": 350,
+   "sha256": "ac69cdcc2e786f008a8670d68e89778ffe26d0bb83d9af6821be5023af058044"
+  },
+  "csv/kyc_profiles.csv": {
+   "bytes": 23421,
+   "rows": 250,
+   "sha256": "fe1de655a52fcaa0bc4fc7da83d410ed1c80ec935cb8b8e6c4f10611334846ca"
+  },
+  "csv/merchants.csv": {
+   "bytes": 2959,
+   "rows": 40,
+   "sha256": "165aea391f8d37569fa8ce6f6c0276d39f03eb77a8f36834cc7444e2a7da1412"
+  },
+  "csv/risk_rules.csv": {
+   "bytes": 1625,
+   "rows": 5,
+   "sha256": "f7eeb7705c710391aef6b11915faf89ecc6df08d5b903ae705a7ff9bc0ed36f4"
+  },
+  "csv/transactions.csv": {
+   "bytes": 720748,
+   "rows": 5000,
+   "sha256": "c34564760a1ae221751c89af7009b997ba949eb1e1889ff2aee7d055663bbaf2"
+  },
+  "csv/transfer_links.csv": {
+   "bytes": 24737,
+   "rows": 159,
+   "sha256": "4e933cbaa04c374b48d6a39a901da8de61d99597dfa7bbc1d4580e7d2a436672"
+  },
+  "data_dictionary.md": {
+   "bytes": 16824,
+   "rows": null,
+   "sha256": "4f7cc9047cb7148bfc9254fea01db00a73c90b5d1c872334173ecc7883ec6baa"
+  },
+  "evaluation_metrics.json": {
+   "bytes": 5102,
+   "rows": null,
+   "sha256": "fc8ad1303680e24535c04376423cf076dc6eb78d84eeee92cce22bf09a8004b7"
+  },
+  "evaluation_report.md": {
+   "bytes": 2789,
+   "rows": null,
+   "sha256": "6e68143cbada3c6e5718a9834eed3c419a4c419ff3b198dce82af1a4cb2ce78b"
+  },
+  "ground_truth/ground_truth.json": {
+   "bytes": 24760,
+   "rows": null,
+   "sha256": "014f9ab512a52b15d832a1034ff7b15e2c56cf489ac12e2d8ae2a2b66484bda3"
+  },
+  "ground_truth/injected_anomalies.csv": {
+   "bytes": 1301,
+   "rows": null,
+   "sha256": "e07b2dcdeb2ff46065b87b7244a2fd002f9c79c1a082d4152d7aa1e54695526d"
+  },
+  "ground_truth/scenario_entities.csv": {
+   "bytes": 9616,
+   "rows": null,
+   "sha256": "fa7630f5308ca65d24c8d8bb3a50f18d3028aaafebbc981a192d9fec9661d9a4"
+  },
+  "ground_truth/scenarios.csv": {
+   "bytes": 6046,
+   "rows": null,
+   "sha256": "57b4a5cb1daed6505b8f24adb9a94213281cb348faf4780b5a10fb1d66480e74"
+  },
+  "json/account_parties.json": {
+   "bytes": 51138,
+   "rows": 383,
+   "sha256": "0ffa36861c56f17f3ee61cd2e97dca100691a295c9b256458f80af7d625d239b"
+  },
+  "json/account_status_events.json": {
+   "bytes": 76274,
+   "rows": 382,
+   "sha256": "1ee79e7820e0075db176aa660fe4b440217def11b03ab21a2e7a5bd9d5ff98d5"
+  },
+  "json/accounts.json": {
+   "bytes": 102046,
+   "rows": 350,
+   "sha256": "e9490fb0be5fc9391b712ba37367658c70db033dabdf029ceb97c2654cb46105"
+  },
+  "json/alert_transactions.json": {
+   "bytes": 14203,
+   "rows": 150,
+   "sha256": "6868c0be52f6f8a644ec681e8f845939ec7a6cf063c187f3c2c5066280b5a856"
+  },
+  "json/alerts.json": {
+   "bytes": 40903,
+   "rows": 50,
+   "sha256": "873435ab9cfea0e180d5fd5b4494e8ba22fdc5931ee28cb0c9d64c8ab44f3c0a"
+  },
+  "json/analyst_actions.json": {
+   "bytes": 35514,
+   "rows": 114,
+   "sha256": "4a1c06746f662612b788130259fc0b4299e3db0accfd688981a4ed26694d667b"
+  },
+  "json/analyst_users.json": {
+   "bytes": 1169,
+   "rows": 8,
+   "sha256": "20a1a281146959976e7393145da6c71d6e532b614d859a44977202a1a0d60ff9"
+  },
+  "json/cases.json": {
+   "bytes": 14152,
+   "rows": 41,
+   "sha256": "d310e09c9fac9a6b95dcc32d51318bfa8cae36013b1783d1ff66285f0a2ace05"
+  },
+  "json/customers.json": {
+   "bytes": 56148,
+   "rows": 250,
+   "sha256": "c13a6dcda28489bea72bd269afe0e92d81d0ed704e62e6f8381fa565c8941488"
+  },
+  "json/device_account_links.json": {
+   "bytes": 62702,
+   "rows": 488,
+   "sha256": "66d012566c7fd2218b8b2fd1316689ff0a7e87652dc3c0757f825870a4bc096b"
+  },
+  "json/devices.json": {
+   "bytes": 57502,
+   "rows": 350,
+   "sha256": "0df2f0d68abd39a3dae77653f1fb889e5e04e7859c788775ef0ec3bdb9124f1a"
+  },
+  "json/kyc_profiles.json": {
+   "bytes": 64085,
+   "rows": 250,
+   "sha256": "a5c852c60fa987cf2814792c42bf0dd29f51ac1841b98173ff952c527a498cdd"
+  },
+  "json/merchants.json": {
+   "bytes": 7555,
+   "rows": 40,
+   "sha256": "41da3e8618280837245ba18d0f5dca89f81f4fc15ee1de80be58198ff85db9ff"
+  },
+  "json/risk_rules.json": {
+   "bytes": 2305,
+   "rows": 5,
+   "sha256": "2523c39c93c02e687b1a75af06e644681a3e1c80b8287ad77bd209251c6ee7ea"
+  },
+  "json/transactions.json": {
+   "bytes": 1672216,
+   "rows": 5000,
+   "sha256": "af4829fdd37721a7fb5216a9aad455d99bb3a23143341a232bf6a49b5829eb28"
+  },
+  "json/transfer_links.json": {
+   "bytes": 49252,
+   "rows": 159,
+   "sha256": "c4a14738cec6c7b756adc2cfa17a955777343c89b52ee3185c75c8bbc10b50bd"
+  },
+  "sql/schema.sql": {
+   "bytes": 9107,
+   "rows": null,
+   "sha256": "10f3e9cc0a62bffb238d7b9abd2549e5f612284a152b01d196ebf2e5ec49b5a0"
+  },
+  "sql/seed.sql": {
+   "bytes": 1200332,
+   "rows": null,
+   "sha256": "c9b4641ec62b16d3ea80554c99f0d4f7d5e833d090596c52aaa4d3776cd8a35c"
+  }
+ },
+ "generator_command": "python -m alertgen.build --seed 20261022 --scale 0.05 --out <dir> --formats csv,json,sql",
+ "provenance": "100% synthetic. No external datasets, no real personal data; names are random first/last-name combinations.",
+ "scale": 0.05,
+ "schema_inspiration_references": [
+  {
+   "name": "FFIEC BSA/AML Examination Manual (typologies, schema inspiration only)",
+   "url": "https://bsaaml.ffiec.gov/manual"
+  },
+  {
+   "name": "FATF Recommendations (circular/layering concepts, inspiration only)",
+   "url": "https://www.fatf-gafi.org/en/topics/fatf-recommendations.html"
+  }
+ ],
+ "seed": 20261022,
+ "validation_all_pass": true
+}

@@ -1,0 +1,225 @@
+{
+ "alerts_by_band": {
+  "P1": 139,
+  "P2": 480,
+  "P3": 381
+ },
+ "alerts_by_rule": {
+  "RULE-001": 250,
+  "RULE-002": 421,
+  "RULE-003": 187,
+  "RULE-004": 142
+ },
+ "cases": {
+  "analyst_vs_ground_truth_agreement": {
+   "accuracy": 0.9287,
+   "agree": 743,
+   "closed_cases_with_label": 800,
+   "confusion": {
+    "expected=CONFIRMED_SUSPICIOUS|analyst=CONFIRMED_SUSPICIOUS": 398,
+    "expected=CONFIRMED_SUSPICIOUS|analyst=FALSE_POSITIVE": 57,
+    "expected=FALSE_POSITIVE|analyst=FALSE_POSITIVE": 345
+   }
+  },
+  "by_disposition": {
+   "CONFIRMED_SUSPICIOUS": 398,
+   "FALSE_POSITIVE": 408
+  },
+  "by_priority": {
+   "P1": 86,
+   "P2": 378,
+   "P3": 356
+  },
+  "by_status": {
+   "CLOSED": 806,
+   "ESCALATED": 4,
+   "IN_REVIEW": 10
+  },
+  "false_positive_rate_closed": 0.5062,
+  "max_alerts_in_case": 6,
+  "mean_hours_to_close_by_band": {
+   "P1": 163.6,
+   "P2": 112.4,
+   "P3": 110.4
+  },
+  "multi_alert_cases": 106,
+  "sla_breach_rate": 0.2976,
+  "total": 820
+ },
+ "detection": {
+  "alerts_without_trigger": 6,
+  "boundary_no_alert_violations": 0,
+  "per_scenario_type": {
+   "boundary_dormant_gap_lt_180": {
+    "alerts_found": 0,
+    "expected_alerts": 0,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BOUNDARY_NO_ALERT",
+    "recall": null,
+    "scenarios": 30,
+    "scenarios_detected": 0
+   },
+   "boundary_new_device_below_threshold": {
+    "alerts_found": 0,
+    "expected_alerts": 0,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BOUNDARY_NO_ALERT",
+    "recall": null,
+    "scenarios": 30,
+    "scenarios_detected": 0
+   },
+   "boundary_velocity_below_count": {
+    "alerts_found": 0,
+    "expected_alerts": 0,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BOUNDARY_NO_ALERT",
+    "recall": null,
+    "scenarios": 30,
+    "scenarios_detected": 0
+   },
+   "circular_transfer": {
+    "alerts_found": 137,
+    "expected_alerts": 137,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "SUSPICIOUS",
+    "recall": 1.0,
+    "scenarios": 41,
+    "scenarios_detected": 41
+   },
+   "dormant_reactivation": {
+    "alerts_found": 89,
+    "expected_alerts": 89,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "SUSPICIOUS",
+    "recall": 1.0,
+    "scenarios": 89,
+    "scenarios_detected": 89
+   },
+   "dormant_reactivation_benign": {
+    "alerts_found": 50,
+    "expected_alerts": 50,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BENIGN_FALSE_POSITIVE",
+    "recall": 1.0,
+    "scenarios": 50,
+    "scenarios_detected": 50
+   },
+   "new_device_benign": {
+    "alerts_found": 220,
+    "expected_alerts": 220,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BENIGN_FALSE_POSITIVE",
+    "recall": 1.0,
+    "scenarios": 220,
+    "scenarios_detected": 220
+   },
+   "new_device_high_value": {
+    "alerts_found": 199,
+    "expected_alerts": 199,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "SUSPICIOUS",
+    "recall": 1.0,
+    "scenarios": 199,
+    "scenarios_detected": 199
+   },
+   "reciprocal_transfer_benign": {
+    "alerts_found": 50,
+    "expected_alerts": 50,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BENIGN_FALSE_POSITIVE",
+    "recall": 1.0,
+    "scenarios": 25,
+    "scenarios_detected": 25
+   },
+   "velocity_benign": {
+    "alerts_found": 60,
+    "expected_alerts": 60,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "BENIGN_FALSE_POSITIVE",
+    "recall": 1.0,
+    "scenarios": 60,
+    "scenarios_detected": 60
+   },
+   "velocity_spike": {
+    "alerts_found": 189,
+    "expected_alerts": 189,
+    "false_alerts_on_no_alert_scenarios": 0,
+    "label": "SUSPICIOUS",
+    "recall": 1.0,
+    "scenarios": 189,
+    "scenarios_detected": 189
+   }
+  },
+  "precision_vs_expected": 1.0,
+  "suspicious_detected": 518,
+  "suspicious_recall": 1.0,
+  "suspicious_scenarios": 518,
+  "unexpected_alert_ids": [],
+  "unexpected_alerts": 0
+ },
+ "ranking": {
+  "analyst_effort_saved": {
+   "note": "share of benign false-positive alerts that land in band P3 (can be batch-reviewed)",
+   "value": 0.9974
+  },
+  "auc_amount_only": 0.722,
+  "auc_fifo_time": 0.5044,
+  "auc_risk_score": 0.9999,
+  "band_vs_label": {
+   "P1": {
+    "benign": 0,
+    "suspicious": 139
+   },
+   "P2": {
+    "benign": 1,
+    "suspicious": 475
+   },
+   "P3": {
+    "benign": 379,
+    "suspicious": 0
+   }
+  },
+  "base_rate_suspicious": 0.6177,
+  "benign_false_positive_alerts": 380,
+  "labelled_alerts": 994,
+  "mean_score": {
+   "benign": 22.47,
+   "suspicious": 60.27
+  },
+  "precision_at_100": {
+   "amount_only": 1.0,
+   "fifo": 0.78,
+   "risk_score": 1.0
+  },
+  "precision_at_50": {
+   "amount_only": 1.0,
+   "fifo": 0.76,
+   "risk_score": 1.0
+  },
+  "suspicious_alerts": 614,
+  "top20pct_review": {
+   "k": 198,
+   "precision_amount_only": 1.0,
+   "precision_fifo": 0.6465,
+   "precision_risk_score": 1.0
+  }
+ },
+ "volumes": {
+  "account_parties": 7610,
+  "account_status_events": 7733,
+  "accounts": 7000,
+  "alert_transactions": 3325,
+  "alerts": 1000,
+  "analyst_actions": 2339,
+  "analyst_users": 27,
+  "cases": 820,
+  "customers": 5000,
+  "device_account_links": 9679,
+  "devices": 6843,
+  "kyc_profiles": 5000,
+  "merchants": 400,
+  "risk_rules": 5,
+  "transactions": 100000,
+  "transfer_links": 3188
+ }
+}
